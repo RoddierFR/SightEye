@@ -6,7 +6,7 @@ import io
 # Remplacez par votre token de bot Telegram
 TELEGRAM_TOKEN = '7734765252:AAG1zYgVpKJZlMh5TWS1frHRYin0a6Fq3Z4'
 # Remplacez par l'adresse IP de votre ESP32 (ex. : 'http://192.168.1.100/upload')
-ESP32_URL = 'http://IP_DE_VOTRE_ESP32/upload'
+ESP32_URL = 'http://192.168.1.159'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Envoyez-moi une photo, et je la transmettrai au robot. Utilisez /stop pour supprimer l'image.")
